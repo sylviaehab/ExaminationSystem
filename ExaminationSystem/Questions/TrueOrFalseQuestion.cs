@@ -12,6 +12,7 @@ namespace ExaminationSystem.Questions
 
         public override void Display()
         {
+            Console.WriteLine("True or False Question:");
             Console.WriteLine(Header);
             Console.WriteLine(Body);
             foreach (Answer answer in AnswerList)

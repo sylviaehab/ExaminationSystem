@@ -25,11 +25,11 @@ namespace ExaminationSystem.Exams
             }
         }
 
-        protected Exam()
+       public Exam()
         {
         }
 
-        protected Exam(int time, int numberOfQuestions)
+        public Exam(int time, int numberOfQuestions)
         {
             Time = time;
             NumberOfQuestions = numberOfQuestions;
